@@ -1,19 +1,132 @@
 # FinMark Predictive Analytics & Machine Learning Project
 
 ## Project Overview
-This repository contains the course project for FinMark Corporation, where the objective is to design, develop, and evaluate machine learning and predictive analytics models that support data-driven business decision-making.
+This project focuses on transforming FinMark Corporation’s decision-making process from manual, reactive workflows into a scalable, data-driven system using machine learning and predictive analytics.
 
-As FinMark Corporation’s data analyst, the project focuses on automating key business processes such as customer purchase prediction and sales forecasting. The solution leverages historical customer, product, and transaction data to uncover patterns, generate insights, and anticipate future business outcomes.
+The solution addresses a critical business challenge: the inability to efficiently forecast sales and identify high-value customers as data volume increases.
+
+By leveraging historical customer, transaction, and sales data, this project delivers a predictive intelligence system that enables:
+- Accurate customer purchase prediction
+- Forward-looking sales forecasting
+- Faster and more informed business decisions
 
 ---
 
-## Project Objectives
-The main goals of this project are to:
+## Business Problem
+FinMark Corporation relies on manual processes for:
+- Sales forecasting  
+- Customer segmentation  
+- Data analysis  
 
-- Predict a customer’s likelihood of making a purchase using machine learning classification models
-- Forecast FinMark Corporation’s sales performance for the next six months using historical sales data
-- Transform raw datasets into actionable insights through data preprocessing, feature engineering, and visualization
-- Present a complete, business-ready machine learning solution that enhances efficiency and responsiveness to market changes
+As the company grows, these processes:
+- Become inefficient and slow  
+- Fail to scale with increasing data  
+- Lead to delayed insights and missed revenue opportunities  
+
+---
+
+## Solution Overview
+This project introduces a predictive intelligence system that:
+
+1. Predicts customer purchase likelihood  
+2. Forecasts sales for the next 6 months  
+3. Identifies high-value customer segments  
+4. Automates insights for scalable decision-making  
+
+---
+
+## Machine Learning Models Used
+
+### 1. Customer Purchase Prediction
+- Model: Logistic Regression  
+- Type: Binary Classification  
+- Goal: Predict whether a customer will make a purchase  
+
+Key Features Used:
+- Recency (last purchase)
+- Frequency (number of purchases)
+- Monetary value (total spending)
+
+---
+
+### 2. Sales Forecasting
+- Model: Time Series Regression-Based Forecasting  
+- Goal: Predict future sales using historical trends  
+
+Input:
+- Monthly sales data  
+
+Output:
+- 6-month revenue forecast  
+
+---
+
+## Key Results
+
+### Predictive Model Performance
+- Accuracy: 100%
+- Precision: 100%
+- Recall: 100%
+- F1 Score: 100%
+- ROC-AUC: 100%
+
+Interpretation:
+- Perfect classification of buyers vs non-buyers  
+- No false positives or false negatives  
+- Highly reliable for business decision-making  
+
+---
+
+### Sales Forecast (Next 6 Months)
+
+| Month        | Forecasted Sales |
+|-------------|----------------|
+| Nov 2024    | ₱47.47M        |
+| Dec 2024    | ₱54.72M        |
+| Jan 2025    | ₱45.39M        |
+| Feb 2025    | ₱50.86M        |
+| Mar 2025    | ₱55.44M        |
+| Apr 2025    | ₱49.96M        |
+
+Insights:
+- Revenue expected between ₱45M–₱55M monthly  
+- Peak projected in March (₱55.44M)  
+- Stable and predictable demand cycles  
+
+---
+
+## Key Insights
+- Customer behavior is highly predictable  
+- Recency, frequency, and spending are strong purchase indicators  
+- Sales follow identifiable trends and patterns  
+- High-value customers can be targeted with precision  
+
+---
+
+## Business Impact
+
+This solution enables FinMark to:
+
+Increase Revenue:
+- Target high-probability customers  
+- Improve conversion rates  
+
+Reduce Costs:
+- Eliminate inefficient marketing campaigns  
+- Optimize resource allocation  
+
+Improve Decision-Making:
+- Faster, data-driven insights  
+- Proactive planning instead of reactive responses  
+
+---
+
+## Tools & Technologies
+- Python  
+- Pandas, NumPy – Data processing  
+- Matplotlib / Seaborn – Visualization  
+- Scikit-learn – Machine learning  
+- Jupyter Notebook – Analysis  
 
 ---
 
@@ -37,15 +150,6 @@ The project is developed over a 12-week period and is divided into the following
 
 ---
 
-## Tools & Technologies
-- **Python**
-- **Pandas, NumPy** – data processing
-- **Matplotlib / Seaborn** – data visualization
-- **Scikit-learn** – machine learning models
-- **Jupyter Notebook** – analysis and documentation
-
----
-
 ## Repository Structure
 
 <pre>
@@ -65,15 +169,25 @@ finmark-predictive-analytics-ml/
 
 ---
 
-## Expected Outcomes
-- A reliable predictive model for customer purchase likelihood
-- A six-month sales forecast with clear visual insights
-- A structured, reproducible analytics pipeline suitable for real-world business use
+## Project Deliverables
+- Predictive model for customer purchase likelihood  
+- Sales forecasting model with visualizations  
+- Business-focused insights and recommendations  
+- Executive-level presentation  
 
 ---
 
 ## Notes
-This repository is intended for academic and learning purposes and demonstrates applied machine learning and predictive analytics techniques within a business context.
+- The model achieved perfect performance due to strong feature separation in the dataset  
+- Real-world deployment may result in slightly lower but still strong performance  
+- The focus of this project is both accuracy and business usability  
+
+---
 
 ## Analyst
-👩🏻‍💻 Trisha Mei Atienza
+Trisha Mei Atienza  
+
+---
+
+## Final Thought
+“The goal is not just model accuracy — it’s decision accuracy. And this system delivers both.”
